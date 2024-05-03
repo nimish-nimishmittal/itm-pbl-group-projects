@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life Insurance Premium Calculator</title>
+    
+
+    <!-- Favicon -->
+	<link rel="icon" type="image/png" href="img/shield.png">
+
+	<!-- External CSS link -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/insurance.css">
+    <link rel="stylesheet" href="styles.css">
+
+
+	<!-- Ionic icons CDN -->
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+	<!-- Jquery CDN link -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+		integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="menu-container nav-wrapper">
+            <div class="brand">
+                <a href="index.html">
+                    <img src="img/insurancy logo.png" alt="insurancy-logo" border="0">
+                </a>
+            </div>
+
+            <div class="hamberger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li class="active">
+                    <a href="insurance.html">Insurance</a>
+                    <ul class="dropdown-list">
+                        <li><a href="#">Health Policy</a></li>
+                        <li><a href="#">Auto Policy</a></li>
+                        <li><a href="#">Home Policy</a></li>
+                        <li><a href="#">Life Policy</a></li>
+                        <li><a href="#">Travel Policy</a></li>
+                        <li><a href="premium.html">Calculate Premium</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contacts</a></li>
+                <li>
+                    <button class="btn btn-blue">
+                        <a href="#">+91 9876543223</a>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <h1>Life Insurance Premium Calculator</h1>
+        <div class="input-group">
+            <label for="age">Age:</label>
+            <input type="number" id="age" min="18" required>
+        </div>
+        <div class="input-group">
+            <label for="coverageAmount">Coverage Amount (₹):</label>
+            <input type="number" id="coverageAmount" required>
+        </div>
+        <div class="input-group">
+            <label for="term">Term (years):</label>
+            <input type="number" id="term" required>
+        </div>
+        <button onclick="calculatePremium()">Calculate Premium</button>
+        <div id="premiumResult"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
