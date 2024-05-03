@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Premansh Khandare Web Projects -->
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Insurancy | Premansh Khandare</title>
+	<meta name="description"
+		content="Insurancy is sharp Insurance agency website template based on HTML CSS and JavaScript specially designed for insurance company, insurance agency and startup agency.">
+	<meta name="keywords"
+		content="insurance broker website template, website template for insurance company, insurance website templates free download, insurance company website template, life insurance website template, insurance agency website template, auto insurance website template, insurance agency, html5 website template, insurance website examples, car insurance website template, insurance responsive website template free download">
+	<meta name="author" content="atulcodex - Atul Prajapati | Web Developer">
+
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" href="img/shield.png">
+
+	<!-- External CSS link -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Ionic icons CDN -->
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+	<!-- Jquery CDN link -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+		integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body class="">
+	<!-- Scroll to top starts -->
+	<button id="topBtn">
+		<ion-icon name="arrow-up-outline"></ion-icon>
+	</button>
+	<!-- Scroll to top ends -->
+
+	<!-- Navigation starts -->
+	<nav>
+		<div class="menu-container nav-wrapper">
+			<div class="brand">
+				<a href="index.html">
+					<img src="img/insurancy logo.png" alt="insurancy-logo" border="0">
+				</a>
+			</div>
+
+			<div class="hamberger">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+
+			<ul class="nav-list">
+				<li class="active"><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li>
+					<a href="insurance.html">Insurance</a>
+					<ul class="dropdown-list">
+						<li><a href="insurance-details.html">Health Policy</a></li>
+						<li><a href="insurance-details.html">Auto Policy</a></li>
+						<li><a href="insurance-details.html">Home Policy</a></li>
+						<li><a href="insurance-details.html">Life Policy</a></li>
+						<li><a href="insurance-details.html">Travel Policy</a></li>
+						<li><a href="premium.html">Calculate Premium</a></li>
+					</ul>
+				</li>
+				<li><a href="contact.html">Contacts</a></li>
+				<li>
+					<button class="btn btn-blue">
+						<a href="#">+91 9876543223</a>
+					</button>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<!-- Navigation ends -->
+
+
+	<!-- Hero section starts -->
+	<section class="hero">
+		<div class="hero-container">
+			<div class="row">
+				<div class="col hero-content">
+					<h2 class="hero-heading white">
+						Insurance for your Secure Family
+					</h2>
+					<p class="para-line white">
+						Protecting what matters most, together. Explore our family insurance plans today!
+					</p>
+					<div class="inner-row">
+						<div class="inner-col">
+							<button class="btn btn-full-w btn-blue">
+								<a href="#">Find An Agency</a>
+							</button>
+						</div>
+						<div class="inner-col">
+							<button class="btn btn-full-w btn-yellow">
+								<a href="#">Buy Insurance</a>
+							</button>
+						</div>
+					</div>
+				</div>
+				<div class="col hero-blank-col"></div>
+			</div>
+		</div>
+	</section>
+	<!-- Hero section ends -->
+
+
+	<!-- Why us section starts -->
+	<section class="why-us">
+		<div class="container">
+			<div class="row">
+				<div class="col why-us-content">
+					<h4 class="sub-heading">Why choose us</h4>
+
+					<h2 class="heading">
+						Winner of the Global Insurance Award 2023
+					</h2>
+
+					<p class="para-line">
+						Thrilled to announce that our dedication to excellence has been recognized! In 2023, we proudly
+						received the prestigious Global Insurance Award, a testament to our commitment to innovation,
+						reliability, and customer-centric solutions. Join us in celebrating this achievement as we
+						continue to redefine the standards of insurance excellence worldwide.
+					</p>
+
+					<div class="inner-row why-us-row">
+						<div class="inner-col why-us-col">
+							<ion-icon name="call-outline"></ion-icon>
+							<h3 class="why-us-highlight-heading">
+								24x7 Support
+							</h3>
+							<p class="para-line">
+								Always here when you need us.
+							</p>
+						</div>
+						<div class="inner-col why-us-col">
+							<ion-icon name="flame-outline"></ion-icon>
+							<h3 class="why-us-highlight-heading">
+								Premium Services
+							</h3>
+							<p class="para-line">
+								Elevate your experience with our premium services.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col why-us-lead-form">
+					<div class="lead-form">
+						<form id="quote-form" action="https://script.google.com/macros/s/AKfycbx9EprrBluA2uj9Ptg8bRKHKJUU6XqbWjNuaU78uRYSv0IM7Ay4m2JtVZjGIqU3dk_3/exec" method="post">
+							<!-- Your form fields -->
+							<div class="input-field">
+							  <label for="name">Full Name</label>
+							  <input type="text" id="name" name="name" placeholder="Your name" required>
+							</div>
+						  
+							<div class="input-field">
+							  <label for="number">Phone No.</label>
+							  <input type="text" id="number" name="number" placeholder="Your phone number" required>
+							</div>
+						  
+							<div class="input-field">
+							  <label for="email">Email Address</label>
+							  <input type="email" id="email" name="email" placeholder="Your email address" required>
+							</div>
+						  
+							<button class="btn btn-blue" type="submit">Submit</button>
+						  </form>
+						  
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Why us section ends -->
+
+
+	<!-- Services section starts -->
+	<section class="our-services">
+		<div class="container">
+			<img src="img/d1.jpg" class="service-img" alt="Our Services" title="Our Services">
+
+			<h4 class="sub-heading">Services We Provide</h4>
+			<h2 class="heading">
+				Insurance Solutions
+			</h2>
+			<p class="para-line head-desc">
+				At our core, we believe in providing more than just insurance policies; we offer comprehensive
+				solutions tailored to your needs. Whether it's safeguarding your home, protecting your business, or
+				securing your future, our expert team is dedicated to delivering peace of mind through personalized
+				coverage, attentive service, and innovative solutions. With us, you're not just a policyholder – you're
+				part of our commitment to protection and support, every step of the way.
+			</p>
+
+			<div class="services">
+				<div class="service">
+					<ion-icon name="home-outline"></ion-icon>
+					<h2 class="service-heading">Home</h2>
+					<p class="para-line">
+						Turning houses into homes, one policy at a time.
+					</p>
+				</div>
+				<div class="service">
+					<ion-icon name="car-sport-outline"></ion-icon>
+					<h2 class="service-heading">Auto</h2>
+					<p class="para-line">
+						Driving confidence with our auto insurance solutions.
+					</p>
+				</div>
+				<div class="service">
+					<ion-icon name="airplane-outline"></ion-icon>
+					<h2 class="service-heading">Travel</h2>
+					<p class="para-line">
+						Exploring the world worry-free with our travel insurance.
+					</p>
+				</div>
+				<div class="service">
+					<ion-icon name="fitness-outline"></ion-icon>
+					<h2 class="service-heading">Life</h2>
+					<p class="para-line">
+						Protecting the moments that matter most, with life insurance.
+					</p>
+				</div>
+				<div class="service">
+					<ion-icon name="happy-outline"></ion-icon>
+					<h2 class="service-heading">KidCare</h2>
+					<p class="para-line">
+						Nurturing futures, protecting little ones with KidCare.
+					</p>
+				</div>
+				<div class="service">
+					<ion-icon name="medkit-outline"></ion-icon>
+					<h2 class="service-heading">Health</h2>
+					<p class="para-line">
+						Prioritizing your well-being, one health policy at a time.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Services section ends -->
+
+
+	<!-- Overline section starts -->
+	<section class="overline">
+		<div class="container">
+			<h4 class="sub-heading white">Section overline</h4>
+
+			<h2 class="heading white">
+				Best Insurance Policies
+			</h2>
+
+			<img src="img\indian-medical-doctor-patient-family-smiling-health-care-concept-isolated-white-background-32148784.webp" alt="Insurance Policies" title="Insurance policies"
+				class="insurance-policies">
+
+			<div class="overlines">
+				<div class="row">
+					<div class="col">
+						<ion-icon name="analytics-outline" class="white"></ion-icon>
+						<h2 class="overline-heading">Insurance Made Simple</h2>
+						<p class="para-line white">
+							Simplify your coverage with ease: Insurance made simple.
+						</p>
+					</div>
+					<div class="col">
+						<ion-icon name="briefcase-outline" class="white"></ion-icon>
+						<h2 class="overline-heading">Experienced Agents</h2>
+						<p class="para-line white">
+							Guidance you can trust: Our team of experienced agents.
+						</p>
+					</div>
+					<div class="col">
+						<ion-icon name="trophy-outline" class="white"></ion-icon>
+						<h2 class="overline-heading">Winning Agency</h2>
+						<p class="para-line white">
+							Experience the difference with our award-winning agency.
+						</p>
+					</div>
+					<div class="col">
+						<ion-icon name="planet-outline" class="white"></ion-icon>
+						<h2 class="overline-heading">Global Presence</h2>
+						<p class="para-line white">
+							Bringing protection worldwide: Discover our global presence.
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<button class="btn btn-yellow">
+				<a href="#">All Our Policies</a>
+			</button>
+		</div>
+	</section>
+	<!-- Overline section ends -->
+
+
+	<!-- About section starts -->
+	<section class="about">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h4 class="sub-heading">About the Company</h4>
+					<h2 class="heading">Our Story</h2>
+					<p class="para-line">
+						At our core, we're more than just an insurance company – we're a story of resilience,
+						innovation, and commitment. From humble beginnings to a global presence, our journey has been
+						defined by our unwavering dedication to our customers' peace of mind. Through challenges and
+						triumphs, we've evolved, adapted, and grown, driven by a passion for protection and a vision of
+						a safer, more secure future for all. Join us as we continue to write our story, one policy at a
+						time.
+					</p>
+
+					<div class="about-highlights">
+						<div class="about-highlight-line">
+							<ion-icon name="chevron-forward-outline"></ion-icon>
+							<h5 class="highlight-line-heading">Experienced Team</h5>
+						</div>
+						<div class="about-highlight-line">
+							<ion-icon name="chevron-forward-outline"></ion-icon>
+							<h5 class="highlight-line-heading">Online Insurance Assistant</h5>
+						</div>
+						<div class="about-highlight-line">
+							<ion-icon name="chevron-forward-outline"></ion-icon>
+							<h5 class="highlight-line-heading">Insurance Coverage</h5>
+						</div>
+					</div>
+
+					<button class="btn btn-blue btn-full-w">
+						<a href="#">Read More</a>
+					</button>
+				</div>
+				<div class="col">
+					<img src="img/d2.jpg" alt="About Insurancy" title="About Insurancy" class="about-img">
+				</div>
+			</div>
+
+			<div class="partners">
+				<div class="row">
+					<div class="col">
+						<h4 class="sub-heading">Companies we work with</h4>
+						<h2 class="heading">Insurance Partners</h2>
+					</div>
+					<div class="col partners-grid">
+						<img src="img/partner-1.png" alt="Partner" title="Partner" class="partner-img">
+						<img src="img/partner-2.png" alt="Partner" title="Partner" class="partner-img">
+						<img src="img/partner-3.png" alt="Partner" title="Partner" class="partner-img">
+						<img src="img/partner-4.png" alt="Partner" title="Partner" class="partner-img">
+						<img src="img/partner-5.png" alt="Partner" title="Partner" class="partner-img">
+						<img src="img/partner-6.png" alt="Partner" title="Partner" class="partner-img">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- About section ends -->
+
+
+	<!-- Testimonial section starts -->
+	<section class="testimonial">
+		<div class="container">
+			<h4 class="sub-heading white">Testimonials</h4>
+			<h2 class="heading white">What Our Customers Say</h2>
+			<p class="para-line white">
+				I've been a customer for years and have always been impressed by the level of care and attention I
+				receive from this company. Their dedication to ensuring I have the right coverage and their prompt,
+				friendly customer service have made all the difference for me and my family. I highly recommend them to
+				anyone looking for reliable insurance solutions.
+			</p>
+			<div class="testimonial-profile">
+				<img src="img/client.jpg" alt="Client" title="Client" class="profile-img">
+				<span>
+					<h6 class="client-name white">Shivali Parab</h6>
+					<p class="client-location white">Mumbai</p>
+				</span>
+			</div>
+
+			<div class="stars">
+				<ion-icon name="star-outline"></ion-icon>
+				<ion-icon name="star-outline"></ion-icon>
+				<ion-icon name="star-outline"></ion-icon>
+				<ion-icon name="star-outline"></ion-icon>
+				<ion-icon name="star-outline"></ion-icon>
+			</div>
+		</div>
+	</section>
+	<!-- Testimonial section ends -->
+
+
+	<section class="consultancy">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="lead-form agent-card">
+						<img src="img/agent.jpg" alt="Agent" title="Agent" class="agent-img">
+						<h3 class="agent-name">Prutvik Pratap</h3>
+						<p class="para-line">Senior Insurance Agent</p>
+						<h6 class="agent-number">
+							<ion-icon name="call-outline"></ion-icon> (+91) 98765 - 43210
+						</h6>
+						<h6 class="agent-email">
+							<ion-icon name="mail-unread-outline"></ion-icon> pruthvik@insurancy.com
+						</h6>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!--------------- Footer ------------------>
+	<footer>
+		<div class="footer-container">
+			<p class="para-line white">Copyright © 2024</p>
+		</div>
+	</footer>
+	<!--------------- Footer ------------------>
+
+
+
+
+	<!-------------- Importing JS file -------------->
+	<script src="js/script.js"></script>
+
+
+	<script>
+		// ------------------------ Scroll to top button --------------------
+		$(document).ready(function () {
+			$(window).scroll(function () {
+				if ($(this).scrollTop() > 40) {
+					$('#topBtn').fadeIn();
+				}
+				else {
+					$('#topBtn').fadeOut();
+				}
+			});
+
+			$("#topBtn").click(function () {
+				$('html, body').animate({ scrollTop: 0 }, 800);
+			});
+		});
+		// ------------------------ Scroll to top button --------------------
+document.addEventListener('DOMContentLoaded', function () {
+    document.getElementById('get-quote-btn').addEventListener('click', function () {
+        var form = document.getElementById('quote-form');
+        var formData = new FormData(form);
+        fetch(form.action, {
+            method: 'POST',
+            body: formData
+        })
+        .then(response => {
+            if (response.ok) {
+                alert('Form submitted successfully');
+                // Optionally, you can redirect the user or show a success message here
+            } else {
+                alert('Form submission failed');
+                // Optionally, you can handle errors here
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
+    });
+});
+</script>
+
+</body>
+
+</html>
